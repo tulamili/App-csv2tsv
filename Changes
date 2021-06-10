@@ -1,0 +1,13 @@
+Revision history for the module "App::csv2tsv" : 
+
+0.58   2021-06-10T12:41+09:00  Note that English manual has not been updated. Japanese only. Sorry!
+
+   # 0.51 : 英文マニュアルをPOD形式にする。
+   # 0.52 : revの機能をデバグ
+   # 0.53 : エスケープ文字が余分に現れるバグを訂正。更にリファクタ。更にシェバングに-Tを加えた。
+   # 0.54 : revで2次情報を出すようにした。STDERRで非ASCIIに対応。
+   # 0.55 : CSVのフィールドの区分文字を変更可能とした。Text::CSVでエラーが起きたときに、入力行の内容を表示するようにした。さらに -Tを-tにした(perldocが起動できなかったため)。
+   # 0.56 : マニュアルの英語の部分を2箇所訂正。
+   # 0.57 : perl -t を外した。さらに Text::CSV_XS でなくて Text::CSV を使うようにした。
+   # 0.58 ; -2の動作を変更。
+
